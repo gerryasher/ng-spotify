@@ -1,0 +1,9 @@
+<h2>Need Music?</h2>
+<p> 
+    Use the spotify app to browse new releases and find your favorite songs<br> 
+    All you get is this text and a mostly barebones HTML document.
+</p>
+<form>
+    <input type="text" name="searchStr" [(ngModel)]="searchStr" 
+    (keyup)="searchMusic()" class="form-control" placeholder="Search Music">
+</form>
